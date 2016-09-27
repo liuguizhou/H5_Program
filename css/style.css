@@ -1,0 +1,212 @@
+@charset "utf-8";
+
+ /*reset */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+i,
+cite,
+em,
+var,
+address,
+dfn {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: inherit;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+}
+/*ul li{*/
+	/*float: left;*/
+/*}*/
+html {
+    font-size: 100%;
+}
+body{
+	background-color: #eeeeee;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+    font: 15px arial, \5b8b\4f53;
+    color: #333;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+}
+
+html {
+    text-size-adjust: none;
+    -moz-text-size-adjust: none;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+
+/*公用的header start*/
+.main-header{ color: #FFFF00;background-color: #FF0000; }
+.main-header .mui-action-back,
+ .main-header .btn-header-left { padding-top: 10px;color: #fff }
+.main-header .mui-title{ color: #fff;right: 80px;left:80px; }
+.main-header .mui-pull-right{ padding-top: 11px;color: #fff;padding-bottom: 14px;}
+/*公用的header end*/
+
+/*--mui piker选择器的头的样式 start*/
+.mui-poppicker-title{
+    position: absolute;
+    left: 55px;
+    right: 55px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1rem;
+}
+.mui-poppicker {
+    background-color: #418acc;
+    border-top: solid 1px #418acc;
+    box-shadow: none;
+}
+.mui-poppicker-header {
+    color: #eee;
+}
+.mui-picker{ background-color: #fff; }
+.mui-poppicker-header .mui-btn {
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 10px;
+    border: none;
+    background: none;
+    color: #FFF;
+}
+/*--mui piker选择器的头的样式 end*/
+
+/*暂无记录时的样式*/
+.mui-nodatatext{
+	text-align: center;
+	line-height: 37px;
+    /*font-weight: 700;*/
+    color: #777;
+    font-size: 15px;
+	    
+}
+.mui-pull-caption{ font-weight: normal; }
+.mui-segmented-control.mui-scroll-wrapper .mui-scroll {
+    width: 100%;
+}
+
+/*加载样式*/
+.loading-img{
+	z-index: 10000000;
+}
